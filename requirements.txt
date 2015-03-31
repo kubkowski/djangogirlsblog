@@ -27,7 +27,7 @@ httplib2==0.9
 idna==0.9
 keyring==4.0
 launchpadlib==1.10.2
-lazr.restfulclient==0.13.3
+lazr.restfulclient==0.13.1
 lazr.uri==1.0.3
 liblarch==2.1.0
 lockfile==0.10.2
