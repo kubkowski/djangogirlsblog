@@ -53,9 +53,7 @@ pyparsing==2.0.3
 pyserial==2.7
 pysmbc==1.0.14.1
 pysqlite==2.6.3
-python-apt==0.9.3.10ubuntu1
 python-dateutil==2.2
-python-debian==0.1.22
 pytz==2014.9
 pyxdg==0.25
 rebar==0.1
