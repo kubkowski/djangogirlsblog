@@ -83,6 +83,10 @@ USE_TZ = False
 
 STATIC_URL = '/static/'
 
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, "static"),
+)
+
 try:
     from .local_settings import *
 except ImportError:
@@ -93,8 +97,6 @@ except ImportError:
     SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
     ALLOWED_HOSTS = ['*']
-
-    STATIC_ROOT = 'staticfiles'
 
     DEBUG = False
 
